@@ -1,0 +1,35 @@
+2019-08-01 22:01:19,780 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 22:01:27,580 [INFO ]  Killing Sanic server now.
+2019-08-01 22:01:27,581 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\dell\appdata\local\programs\python\python36\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\dell\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 482, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-08-01 22:01:42,690 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 22:07:40,493 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 22:24:33,466 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 22:26:31,453 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:17:18,955 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:18:16,244 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:18:34,218 [ERROR]  The model predicted the custom action 'action_joke', but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration via the --endpoints flag. https://rasa.com/docs/rasa/core/actions
+2019-08-01 23:18:34,224 [ERROR]  Encountered an exception while running action 'action_joke'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-01 23:18:44,252 [ERROR]  The model predicted the custom action 'action_joke', but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration via the --endpoints flag. https://rasa.com/docs/rasa/core/actions
+2019-08-01 23:18:44,257 [ERROR]  Encountered an exception while running action 'action_joke'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-01 23:19:08,294 [ERROR]  The model predicted the custom action 'action_joke', but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration via the --endpoints flag. https://rasa.com/docs/rasa/core/actions
+2019-08-01 23:19:08,298 [ERROR]  Encountered an exception while running action 'action_joke'. Bot will continue, but the actions events are lost. Please check the logs of your action server for more information.
+2019-08-01 23:19:15,287 [INFO ]  Killing Sanic server now.
+2019-08-01 23:24:12,758 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:24:54,711 [INFO ]  Killing Sanic server now.
+2019-08-01 23:25:22,734 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:44:44,495 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:45:27,805 [INFO ]  Killing Sanic server now.
+2019-08-01 23:49:47,568 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:50:19,217 [INFO ]  Killing Sanic server now.
+2019-08-01 23:54:09,784 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:55:58,530 [INFO ]  Killing Sanic server now.
+2019-08-01 23:57:29,594 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-01 23:57:40,687 [INFO ]  Killing Sanic server now.
+2019-08-01 23:59:58,135 [INFO ]  Starting Rasa server on http://localhost:5005
+2019-08-02 00:00:44,949 [INFO ]  Killing Sanic server now.
